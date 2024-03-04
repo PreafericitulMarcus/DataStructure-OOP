@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 const char *my_strchr(char str[], char c)
 {
