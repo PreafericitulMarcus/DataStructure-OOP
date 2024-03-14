@@ -24,6 +24,7 @@ private:
 	Relation relation;
 	int capacity;
 	int number_elem;
+	int number_elem_ocurrences;
 
 	Pair *elements;
 
