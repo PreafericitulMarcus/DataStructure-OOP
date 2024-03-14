@@ -522,6 +522,43 @@ Lab3Executable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/build
 .PHONY : Lab3Executable/fast
 
+#=============================================================================
+# Target rules for targets named SortedBagExecutable
+
+# Build rule for target.
+SortedBagExecutable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedBagExecutable
+.PHONY : SortedBagExecutable
+
+# fast build rule for target.
+SortedBagExecutable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/build
+.PHONY : SortedBagExecutable/fast
+
+Data_structure/SortedBag/SortedBag/App.obj: Data_structure/SortedBag/SortedBag/App.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/App.obj
+
+# target to build an object file
+Data_structure/SortedBag/SortedBag/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/App.cpp.obj
+
+Data_structure/SortedBag/SortedBag/App.i: Data_structure/SortedBag/SortedBag/App.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/App.i
+
+# target to preprocess a source file
+Data_structure/SortedBag/SortedBag/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/App.cpp.i
+
+Data_structure/SortedBag/SortedBag/App.s: Data_structure/SortedBag/SortedBag/App.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/App.s
+
+# target to generate assembly for a file
+Data_structure/SortedBag/SortedBag/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/App.cpp.s
+
 OOP/lab3/main.obj: OOP/lab3/main.cpp.obj
 .PHONY : OOP/lab3/main.obj
 
@@ -610,6 +647,10 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Lab3Executable
+	@echo ... SortedBagExecutable
+	@echo ... Data_structure/SortedBag/SortedBag/App.obj
+	@echo ... Data_structure/SortedBag/SortedBag/App.i
+	@echo ... Data_structure/SortedBag/SortedBag/App.s
 	@echo ... OOP/lab3/main.obj
 	@echo ... OOP/lab3/main.i
 	@echo ... OOP/lab3/main.s

@@ -19,7 +19,7 @@ TComp SortedBagIterator::getCurrent()
 	}
 	else
 	{
-		return this->bag.elements[this->current_elem];
+		return this->bag.elements[this->current_elem].element;
 	}
 }
 

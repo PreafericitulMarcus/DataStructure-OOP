@@ -88,4 +88,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/Lab3Executable.dir/DependInfo.cmake"
+  "CMakeFiles/SortedBagExecutable.dir/DependInfo.cmake"
   )

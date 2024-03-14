@@ -5,6 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(Lab3Executable OOP/lab3/main.cpp OOP/lab3/problem2.cpp)
+add_executable(SortedBagExecutable Data_Structure/SortedBag/SortedBag/App.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
