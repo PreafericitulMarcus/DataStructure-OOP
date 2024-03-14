@@ -75,9 +75,6 @@ void SortedBag::add(TComp e)
 			number_elem++;
 			number_elem_ocurrences++;
 		}
-		for (int i = 0; i < number_elem; i++)
-			cout << elements[i].element << ' ' << elements[i].freq << '\n';
-		cout << '\n';
 	}
 }
 
@@ -87,52 +84,54 @@ bool SortedBag::remove(TComp e)
 	bool removed = false;
 	if (search(e))
 	{
-		int left = 0;
-		int right = this->number_elem - 1;
-		while (left < right && !removed)
+		for (int i = 0; i < number_elem and !removed; i++)
 		{
-			int middle = (left + right) / 2;
-			if (this->elements[middle].element == e)
+			if (elements[i].element == e and elements[i].freq > 1)
 			{
-				removed = true;
-				for (int i = middle; i < number_elem - 1; i++)
-				{
-					elements[i] = elements[i + 1];
-					// cout << elements[i].element << ' ' << elements[i].freq << '\n';
-				}
-				number_elem -= 1;
+				elements[i].freq--;
+				number_elem_ocurrences--;
+				return true;
 			}
-			else if (this->elements[middle].element < e)
-				left = middle + 1;
-			else
-				right = middle - 1;
+			else if (elements[i].element == e and elements[i].freq == 1)
+			{
+				for (int j = i; j < number_elem - 1; j++)
+					elements[j] = elements[j + 1];
+				number_elem--;
+				number_elem_ocurrences--;
+				return true;
+			}
 		}
 	}
+	// cout << number_elem;
+
+	// for (int i = 0; i < number_elem; i++)
+	// 	cout << elements[i].element << ' ' << elements[i].freq << '\n';
+	// cout << '\n';
 	return removed;
 }
 
 bool SortedBag::search(TComp elem) const
 {
 	// TODO - Implementation
-	// for (int i = 0; i < number_elem; i++)
-	// 	if (elements[i].element == elem)
-	// 		return true;
-	// return false;
+	for (int i = 0; i < number_elem; i++)
+		if (elements[i].element == elem)
+			return true;
+	return false;
 
-	int left = 0;
-	int right = number_elem - 1;
-	bool found = false;
-	while (left < right and !found)
-	{
-		int middle = (left + right) / 2;
-		if (this->elements[middle].element == elem)
-			found = true;
-		if (this->elements[middle].element < elem)
-			left = middle + 1;
-		else
-			right = middle - 1;
-	}
-	return found;
+	// int left = 0;
+	// int right = number_elem - 1;
+	// bool found = false;
+	// while (left < right and !found)
+	// {
+	// 	int middle = (left + right) / 2;
+	// 	if (this->elements[middle].element == elem)
+	// 		found = true;
+	// 	if (this->elements[middle].element < elem)
+	// 		left = middle + 1;
+	// 	else
+	// 		right = middle - 1;
+	// }
+	// return found;
 }
 
 int SortedBag::nrOccurrences(TComp elem) const
@@ -152,7 +151,9 @@ int SortedBag::nrOccurrences(TComp elem) const
 int SortedBag::size() const
 {
 	// TODO - Implementation
-	return this->number_elem_ocurrences;
+	cout<<number_elem<<'\n\n'
+		<<"    ";
+	return number_elem_ocurrences;
 }
 
 bool SortedBag::isEmpty() const
