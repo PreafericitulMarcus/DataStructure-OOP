@@ -43,8 +43,7 @@
 						25,
 						26,
 						27,
-						28,
-						29
+						28
 					]
 				}
 			],
@@ -87,8 +86,7 @@
 						25,
 						26,
 						27,
-						28,
-						29
+						28
 					]
 				}
 			],
@@ -222,13 +220,6 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Lab3Executable::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Lab3Executable-Debug-79253df9beb6622db36f.json",
-					"name" : "Lab3Executable",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "Nightly::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Nightly-Debug-3131763755b9ada3844b.json",
 					"name" : "Nightly",
@@ -300,7 +291,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SortedBagExecutable::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SortedBagExecutable-Debug-4ba9046dc3adc299cc13.json",
+					"jsonFile" : "target-SortedBagExecutable-Debug-223d03aecd37d2ad372f.json",
 					"name" : "SortedBagExecutable",
 					"projectIndex" : 0
 				}

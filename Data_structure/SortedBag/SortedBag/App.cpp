@@ -6,10 +6,11 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 	testAll();
 	testAllExtended();
-	
+
 	cout << "Test over" << endl;
 	system("pause");
 }

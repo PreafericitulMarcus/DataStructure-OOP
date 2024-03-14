@@ -82,19 +82,83 @@ CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\App.cpp -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\App.cpp.s
 
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj: CMakeFiles/SortedBagExecutable.dir/flags.make
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj: CMakeFiles/SortedBagExecutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj -MF CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp.obj.d -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp > CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp.i
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ExtendedTest.cpp.s
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj: CMakeFiles/SortedBagExecutable.dir/flags.make
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/ShortTest.cpp
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj: CMakeFiles/SortedBagExecutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj -MF CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ShortTest.cpp.obj.d -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ShortTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ShortTest.cpp
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ShortTest.cpp > CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ShortTest.cpp.i
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\ShortTest.cpp -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\ShortTest.cpp.s
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj: CMakeFiles/SortedBagExecutable.dir/flags.make
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/SortedBag.cpp
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj: CMakeFiles/SortedBagExecutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj -MF CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBag.cpp.obj.d -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBag.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBag.cpp
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBag.cpp > CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBag.cpp.i
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBag.cpp -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBag.cpp.s
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj: CMakeFiles/SortedBagExecutable.dir/flags.make
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj: CMakeFiles/SortedBagExecutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj -MF CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp.obj.d -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp > CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp.i
+
+CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp -o CMakeFiles\SortedBagExecutable.dir\Data_structure\SortedBag\SortedBag\SortedBagIterator.cpp.s
+
 # Object files for target SortedBagExecutable
 SortedBagExecutable_OBJECTS = \
-"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.obj"
+"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.obj" \
+"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj" \
+"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj" \
+"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj" \
+"CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj"
 
 # External object files for target SortedBagExecutable
 SortedBagExecutable_EXTERNAL_OBJECTS =
 
 SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.obj
+SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj
+SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj
+SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj
+SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj
 SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/build.make
 SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/linkLibs.rsp
 SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/objects1.rsp
 SortedBagExecutable.exe: CMakeFiles/SortedBagExecutable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SortedBagExecutable.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SortedBagExecutable.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SortedBagExecutable.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

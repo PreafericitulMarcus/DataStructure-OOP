@@ -1,20 +1,32 @@
 [
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Lab3Executable.dir\\OOP\\lab3\\main.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\OOP\\lab3\\main.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/OOP/lab3/main.cpp",
-  "output": "CMakeFiles/Lab3Executable.dir/OOP/lab3/main.cpp.obj"
-},
-{
-  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Lab3Executable.dir\\OOP\\lab3\\problem2.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\OOP\\lab3\\problem2.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/OOP/lab3/problem2.cpp",
-  "output": "CMakeFiles/Lab3Executable.dir/OOP/lab3/problem2.cpp.obj"
-},
-{
-  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
   "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedBag\\SortedBag\\App.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedBag\\SortedBag\\App.cpp",
   "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/App.cpp",
   "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.obj"
+},
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedBag\\SortedBag\\ExtendedTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedBag\\SortedBag\\ExtendedTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp",
+  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj"
+},
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedBag\\SortedBag\\ShortTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedBag\\SortedBag\\ShortTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/ShortTest.cpp",
+  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj"
+},
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedBag\\SortedBag\\SortedBag.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedBag\\SortedBag\\SortedBag.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/SortedBag.cpp",
+  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj"
+},
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedBag\\SortedBag\\SortedBagIterator.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedBag\\SortedBag\\SortedBagIterator.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp",
+  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj"
 }
 ]

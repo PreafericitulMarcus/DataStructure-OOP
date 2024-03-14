@@ -1,6 +1,9 @@
 #include "SortedBag.h"
 #include "SortedBagIterator.h"
 #include <utility>
+#include <iostream>
+
+using namespace std;
 
 SortedBag::SortedBag(Relation r)
 {
@@ -27,72 +30,37 @@ void SortedBag::resize()
 void SortedBag::add(TComp e)
 {
 	// TODO - Implementation
-
-	if (search(e)) // check if element is in the bag
+	if (search(e)) // increase frequency if the element is already in the bag
 	{
-		int middle;
-		bool found = false;
-		int left = 0;
-		int right = this->number_elem - 1;
-		while (left < right && !found)
-		{
-			middle = (left + right) / 2;
-			if (this->elements[middle].element == e)
-				found = true;
-			if (this->elements[middle].element < e)
-				left = middle + 1;
-			else
-				right = middle - 1;
-		}
-		this->elements[middle].freq++;
+		for (int i = 0; i < number_elem; i++)
+			if (elements[i].element == e)
+				elements[i].freq++;
 	}
-	else // element is not in the bag
+	else // add the element in the bag
 	{
-		if (relation(e, this->elements[0].element)) // check if the element should be added to the left
+		if (number_elem == capacity) // resize if the bag is full
+			resize();
+		if (number_elem == 0) // add the first element in the bag
 		{
-			if (this->number_elem == this->capacity)
-				resize();
-			else
-			{
-				for (int i = this->number_elem; i > 0; i--)
-					this->elements[i].element = this->elements[i - 1].element;
-				this->elements[0].element = e;
-				this->elements[0].freq = 1;
-			}
+			elements[0].element = e;
+			elements[0].freq = 1;
+			number_elem++;
 		}
-		else if (relation(this->elements[this->number_elem].element, e)) // check if the element should be added to the right
+		else // add the element in the bag
 		{
-			if (this->number_elem == this->capacity)
-				resize();
-			else
+			int i = number_elem - 1;
+			while (i >= 0 && relation(e, elements[i].element)) // go backwords in the bag and add the element in the correct position
 			{
-				this->elements[this->number_elem].element = e;
-				this->elements[this->number_elem].freq = 1;
+				elements[i + 1] = elements[i]; // shift the elements to the right to make way for the new element
+				i--;
 			}
+			elements[i + 1].element = e;
+			elements[i + 1].freq = 1;
+			number_elem++;
 		}
-		else // element should be added inside the bag
-		{
-			int left = 0;
-			int right = this->number_elem;
-			int middle;
-			while (left < right)
-			{
-				middle = (left + right) / 2;
-				if (this->elements[middle].element < e)
-					left = middle + 1;
-				else
-					right = middle - 1;
-			}
-			if (this->number_elem == this->capacity)
-				resize();
-			else
-			{
-				for (int i = this->number_elem; i > middle; i--)
-					this->elements[i].element = this->elements[i - 1].element;
-				this->elements[middle].element = e;
-				this->elements[middle].freq = 1;
-			}
-		}
+		for (int i = 0; i < number_elem; i++)
+			cout << elements[i].element << ' ' << elements[i].freq << '\n';
+		cout << '\n';
 	}
 }
 
@@ -100,10 +68,6 @@ bool SortedBag::remove(TComp e)
 {
 	// TODO - Implementation
 	bool removed = false;
-	if (relation(e, (elements[0].element)) || relation(e, elements[number_elem].element))
-	{
-		return false;
-	}
 	if (search(e))
 	{
 		int left = 0;
@@ -115,7 +79,10 @@ bool SortedBag::remove(TComp e)
 			{
 				removed = true;
 				for (int i = middle; i < number_elem - 1; i++)
+				{
 					elements[i] = elements[i + 1];
+					// cout << elements[i].element << ' ' << elements[i].freq << '\n';
+				}
 				number_elem -= 1;
 			}
 			else if (this->elements[middle].element < e)
@@ -130,40 +97,38 @@ bool SortedBag::remove(TComp e)
 bool SortedBag::search(TComp elem) const
 {
 	// TODO - Implementation
-	if (relation(elem, (elements[0].element)) || relation(elem, elements[number_elem].element))
-	{
-		return false;
-	}
-	int left = 0;
-	int right = this->number_elem - 1;
-	while (left < right)
-	{
-		int middle = (left + right) / 2;
-		if (this->elements[middle].element == elem)
+	for (int i = 0; i < number_elem; i++)
+		if (elements[i].element == elem)
 			return true;
-		if (this->elements[middle].element < elem)
-			left = middle + 1;
-		else
-			right = middle - 1;
-	}
 	return false;
+	// int left = 0;
+	// int right = this->number_elem - 1;
+	// while (left < right)
+	// {
+	// 	int middle = (left + right) / 2;
+	// 	if (this->elements[middle].element == elem)
+	// 		return true;
+	// 	if (this->elements[middle].element < elem)
+	// 		left = middle + 1;
+	// 	else
+	// 		right = middle - 1;
+	// }
+	// return false;
 }
 
 int SortedBag::nrOccurrences(TComp elem) const
 {
 	// TODO - Implementation
-	if (relation(elem, (elements[0].element)) || relation(elem, elements[number_elem].element))
+	int count = 0;
+	for (int i = 0; i < number_elem; i++)
 	{
-		return 0;
-	}
-	for (int i = 0; i < this->number_elem; i++)
-	{
-		if (this->elements[i].element == elem)
+		if (elements[i].element == elem)
 		{
-			return this->elements[i].freq;
+			// cout << elements[i].element << ' ' << elements[i].freq << ' ' << count << ' ';
+			count += elements[i].freq;
 		}
 	}
-	return 0;
+	return count;
 }
 
 int SortedBag::size() const

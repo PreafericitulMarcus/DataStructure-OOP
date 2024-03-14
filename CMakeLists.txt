@@ -4,8 +4,7 @@ project(project VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(Lab3Executable OOP/lab3/main.cpp OOP/lab3/problem2.cpp)
-add_executable(SortedBagExecutable Data_Structure/SortedBag/SortedBag/App.cpp)
+add_executable(SortedBagExecutable Data_Structure/SortedBag/SortedBag/App.cpp Data_Structure/SortedBag/SortedBag/ExtendedTest.cpp Data_Structure/SortedBag/SortedBag/ShortTest.cpp Data_Structure/SortedBag/SortedBag/SortedBag.cpp Data_Structure/SortedBag/SortedBag/SortedBagIterator.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

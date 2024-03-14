@@ -32,7 +32,7 @@ bool SortedBagIterator::valid()
 void SortedBagIterator::next()
 {
 	// TODO - Implementation
-	if (!valid)
+	if (!valid())
 	{
 		throw exception();
 	}

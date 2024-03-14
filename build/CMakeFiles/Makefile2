@@ -62,7 +62,6 @@ CMAKE_BINARY_DIR = D:\AA-Diverse\Cods\DataStructure-OOP\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lab3Executable.dir/all
 all: CMakeFiles/SortedBagExecutable.dir/all
 .PHONY : all
 
@@ -99,7 +98,6 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/Lab3Executable.dir/clean
 clean: CMakeFiles/SortedBagExecutable.dir/clean
 .PHONY : clean
 
@@ -832,44 +830,18 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lab3Executable.dir
-
-# All Build rule for target.
-CMakeFiles/Lab3Executable.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=1,2,3 "Built target Lab3Executable"
-.PHONY : CMakeFiles/Lab3Executable.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Lab3Executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Lab3Executable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 0
-.PHONY : CMakeFiles/Lab3Executable.dir/rule
-
-# Convenience name for target.
-Lab3Executable: CMakeFiles/Lab3Executable.dir/rule
-.PHONY : Lab3Executable
-
-# clean rule for target.
-CMakeFiles/Lab3Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/clean
-.PHONY : CMakeFiles/Lab3Executable.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/SortedBagExecutable.dir
 
 # All Build rule for target.
 CMakeFiles/SortedBagExecutable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=4,5 "Built target SortedBagExecutable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SortedBagExecutable"
 .PHONY : CMakeFiles/SortedBagExecutable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SortedBagExecutable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SortedBagExecutable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 0
 .PHONY : CMakeFiles/SortedBagExecutable.dir/rule

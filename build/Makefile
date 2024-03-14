@@ -510,19 +510,6 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named Lab3Executable
-
-# Build rule for target.
-Lab3Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lab3Executable
-.PHONY : Lab3Executable
-
-# fast build rule for target.
-Lab3Executable/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/build
-.PHONY : Lab3Executable/fast
-
-#=============================================================================
 # Target rules for targets named SortedBagExecutable
 
 # Build rule for target.
@@ -559,53 +546,101 @@ Data_structure/SortedBag/SortedBag/App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/App.cpp.s
 .PHONY : Data_structure/SortedBag/SortedBag/App.cpp.s
 
-OOP/lab3/main.obj: OOP/lab3/main.cpp.obj
-.PHONY : OOP/lab3/main.obj
+Data_structure/SortedBag/SortedBag/ExtendedTest.obj: Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.obj
 
 # target to build an object file
-OOP/lab3/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/main.cpp.obj
-.PHONY : OOP/lab3/main.cpp.obj
+Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.obj
 
-OOP/lab3/main.i: OOP/lab3/main.cpp.i
-.PHONY : OOP/lab3/main.i
+Data_structure/SortedBag/SortedBag/ExtendedTest.i: Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.i
 
 # target to preprocess a source file
-OOP/lab3/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/main.cpp.i
-.PHONY : OOP/lab3/main.cpp.i
+Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.i
 
-OOP/lab3/main.s: OOP/lab3/main.cpp.s
-.PHONY : OOP/lab3/main.s
+Data_structure/SortedBag/SortedBag/ExtendedTest.s: Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.s
 
 # target to generate assembly for a file
-OOP/lab3/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/main.cpp.s
-.PHONY : OOP/lab3/main.cpp.s
+Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/ExtendedTest.cpp.s
 
-OOP/lab3/problem2.obj: OOP/lab3/problem2.cpp.obj
-.PHONY : OOP/lab3/problem2.obj
+Data_structure/SortedBag/SortedBag/ShortTest.obj: Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.obj
 
 # target to build an object file
-OOP/lab3/problem2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/problem2.cpp.obj
-.PHONY : OOP/lab3/problem2.cpp.obj
+Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.cpp.obj
 
-OOP/lab3/problem2.i: OOP/lab3/problem2.cpp.i
-.PHONY : OOP/lab3/problem2.i
+Data_structure/SortedBag/SortedBag/ShortTest.i: Data_structure/SortedBag/SortedBag/ShortTest.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.i
 
 # target to preprocess a source file
-OOP/lab3/problem2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/problem2.cpp.i
-.PHONY : OOP/lab3/problem2.cpp.i
+Data_structure/SortedBag/SortedBag/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.cpp.i
 
-OOP/lab3/problem2.s: OOP/lab3/problem2.cpp.s
-.PHONY : OOP/lab3/problem2.s
+Data_structure/SortedBag/SortedBag/ShortTest.s: Data_structure/SortedBag/SortedBag/ShortTest.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.s
 
 # target to generate assembly for a file
-OOP/lab3/problem2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3Executable.dir\build.make CMakeFiles/Lab3Executable.dir/OOP/lab3/problem2.cpp.s
-.PHONY : OOP/lab3/problem2.cpp.s
+Data_structure/SortedBag/SortedBag/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/ShortTest.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/ShortTest.cpp.s
+
+Data_structure/SortedBag/SortedBag/SortedBag.obj: Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.obj
+
+# target to build an object file
+Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.cpp.obj
+
+Data_structure/SortedBag/SortedBag/SortedBag.i: Data_structure/SortedBag/SortedBag/SortedBag.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.i
+
+# target to preprocess a source file
+Data_structure/SortedBag/SortedBag/SortedBag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.cpp.i
+
+Data_structure/SortedBag/SortedBag/SortedBag.s: Data_structure/SortedBag/SortedBag/SortedBag.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.s
+
+# target to generate assembly for a file
+Data_structure/SortedBag/SortedBag/SortedBag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBag.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBag.cpp.s
+
+Data_structure/SortedBag/SortedBag/SortedBagIterator.obj: Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.obj
+
+# target to build an object file
+Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.obj
+
+Data_structure/SortedBag/SortedBag/SortedBagIterator.i: Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.i
+
+# target to preprocess a source file
+Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.i
+
+Data_structure/SortedBag/SortedBag/SortedBagIterator.s: Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.s
+
+# target to generate assembly for a file
+Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s
+.PHONY : Data_structure/SortedBag/SortedBag/SortedBagIterator.cpp.s
 
 # Help Target
 help:
@@ -646,17 +681,22 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... Lab3Executable
 	@echo ... SortedBagExecutable
 	@echo ... Data_structure/SortedBag/SortedBag/App.obj
 	@echo ... Data_structure/SortedBag/SortedBag/App.i
 	@echo ... Data_structure/SortedBag/SortedBag/App.s
-	@echo ... OOP/lab3/main.obj
-	@echo ... OOP/lab3/main.i
-	@echo ... OOP/lab3/main.s
-	@echo ... OOP/lab3/problem2.obj
-	@echo ... OOP/lab3/problem2.i
-	@echo ... OOP/lab3/problem2.s
+	@echo ... Data_structure/SortedBag/SortedBag/ExtendedTest.obj
+	@echo ... Data_structure/SortedBag/SortedBag/ExtendedTest.i
+	@echo ... Data_structure/SortedBag/SortedBag/ExtendedTest.s
+	@echo ... Data_structure/SortedBag/SortedBag/ShortTest.obj
+	@echo ... Data_structure/SortedBag/SortedBag/ShortTest.i
+	@echo ... Data_structure/SortedBag/SortedBag/ShortTest.s
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBag.obj
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBag.i
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBag.s
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBagIterator.obj
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBagIterator.i
+	@echo ... Data_structure/SortedBag/SortedBag/SortedBagIterator.s
 .PHONY : help
 
 
