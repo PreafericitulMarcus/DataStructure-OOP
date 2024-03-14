@@ -81,10 +81,9 @@ void SortedBag::add(TComp e)
 bool SortedBag::remove(TComp e)
 {
 	// TODO - Implementation
-	bool removed = false;
 	if (search(e))
 	{
-		for (int i = 0; i < number_elem and !removed; i++)
+		for (int i = 0; i < number_elem; i++)
 		{
 			if (elements[i].element == e and elements[i].freq > 1)
 			{
@@ -102,12 +101,7 @@ bool SortedBag::remove(TComp e)
 			}
 		}
 	}
-	// cout << number_elem;
-
-	// for (int i = 0; i < number_elem; i++)
-	// 	cout << elements[i].element << ' ' << elements[i].freq << '\n';
-	// cout << '\n';
-	return removed;
+	return false;
 }
 
 bool SortedBag::search(TComp elem) const
@@ -151,8 +145,6 @@ int SortedBag::nrOccurrences(TComp elem) const
 int SortedBag::size() const
 {
 	// TODO - Implementation
-	cout<<number_elem<<'\n\n'
-		<<"    ";
 	return number_elem_ocurrences;
 }
 
