@@ -15,9 +15,3 @@ double Complex::ima()
 {
     return imaginary;
 }
-
-int main()
-{
-
-    return 0;
-}

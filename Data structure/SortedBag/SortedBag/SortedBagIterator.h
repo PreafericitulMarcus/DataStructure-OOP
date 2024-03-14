@@ -13,6 +13,8 @@ private:
 
 	//TODO - Representation
 
+	int current_elem;
+
 public:
 	TComp getCurrent();
 	bool valid();

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Lab3Executable.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\Lab3Executable.dir/objects.a @CMakeFiles\Lab3Executable.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Lab3Executable.dir/objects.a -Wl,--no-whole-archive -o Lab3Executable.exe -Wl,--out-implib,libLab3Executable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lab3Executable.dir\linkLibs.rsp

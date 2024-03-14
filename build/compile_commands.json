@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Lab3Executable.dir\\OOP\\lab3\\main.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\OOP\\lab3\\main.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/OOP/lab3/main.cpp",
+  "output": "CMakeFiles/Lab3Executable.dir/OOP/lab3/main.cpp.obj"
+},
+{
+  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Lab3Executable.dir\\OOP\\lab3\\problem2.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\OOP\\lab3\\problem2.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/OOP/lab3/problem2.cpp",
+  "output": "CMakeFiles/Lab3Executable.dir/OOP/lab3/problem2.cpp.obj"
+}
+]

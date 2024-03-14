@@ -8,7 +8,7 @@ int main()
     Complex c;
     // Complex c2{};
 
-    cout << c.re();
+    cout << c.re() << " " << c.ima() << endl;
 
     return 0;
 }
