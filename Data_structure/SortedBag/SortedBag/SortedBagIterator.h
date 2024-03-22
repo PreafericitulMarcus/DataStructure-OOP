@@ -14,6 +14,7 @@ private:
 	//TODO - Representation
 
 	int current_elem;
+	int current_freq;
 
 public:
 	TComp getCurrent();
