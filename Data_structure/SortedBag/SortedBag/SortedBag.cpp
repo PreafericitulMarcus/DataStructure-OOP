@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// constant complexity
 SortedBag::SortedBag(Relation r)
 {
 	// TODO - Implementation
@@ -15,6 +16,12 @@ SortedBag::SortedBag(Relation r)
 	this->number_elem_ocurrences = 0;	 // number of elements in the bag considering the frequency
 }
 
+/*
+Best case: Theta(1)
+Worst case: Theta(number_elem)
+Average case: Theta(number_elem)
+Overall complexity: O(number_elem)
+*/
 void SortedBag::resize() // resize the bag when it is full
 {
 	Pair *new_elements = new Pair[2 * capacity];
@@ -28,6 +35,12 @@ void SortedBag::resize() // resize the bag when it is full
 	this->elements = new_elements;
 }
 
+/*
+Best case: Theta(1)
+Worst case: Theta(number_elem)	// could be improved to Theta(log(number_elem))
+Average case: Theta(number_elem) // could be improved to Theta(log(number_elem))
+Overall complexity: O(number_elem)	// could be improved to O(log(number_elem))
+*/
 void SortedBag::add(TComp e)
 {
 	/*
@@ -95,6 +108,12 @@ void SortedBag::add(TComp e)
 	}
 }
 
+/*
+Best case: Theta(1)
+Worst case: Theta(number_elem)
+Average case: Theta(number_elem)
+Overall complexity: O(number_elem)
+*/
 bool SortedBag::remove(TComp e)
 {
 	/*
@@ -130,6 +149,12 @@ bool SortedBag::remove(TComp e)
 	return false;
 }
 
+/*
+Best case: Theta(1)
+Worst case: Theta(number_elem)	// could be improved to Theta(log(number_elem))
+Average case: Theta(number_elem) // could be improved to Theta(log(number_elem))
+Overall complexity: O(number_elem) // could be improved to O(log(number_elem))
+*/
 bool SortedBag::search(TComp elem) const
 {
 	/*
@@ -159,6 +184,12 @@ bool SortedBag::search(TComp elem) const
 	// return found;
 }
 
+/*
+Best case: Theta(1)
+Worst case: Theta(number_elem)	// could be improved to Theta(log(number_elem))
+Average case: Theta(number_elem) // could be improved to Theta(log(number_elem))
+Overall complexity: O(number_elem) // could be improved to O(log(number_elem))
+*/
 int SortedBag::nrOccurrences(TComp elem) const
 {
 	/*
@@ -180,6 +211,7 @@ int SortedBag::nrOccurrences(TComp elem) const
 	return count;
 }
 
+// constant complexity
 int SortedBag::size() const
 {
 	// return the overall number of elements in the bag. Frequcnies are taken into account.
@@ -187,6 +219,7 @@ int SortedBag::size() const
 	return number_elem_ocurrences;
 }
 
+// constant complexity
 bool SortedBag::isEmpty() const
 {
 	// return true if the bag is empty, false otherwise
@@ -199,6 +232,7 @@ SortedBagIterator SortedBag::iterator() const
 	return SortedBagIterator(*this);
 }
 
+// constant complexity
 SortedBag::~SortedBag()
 {
 	// free the memory allocated for the elements

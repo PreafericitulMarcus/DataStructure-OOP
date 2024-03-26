@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// constant complexity
 SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b)
 {
 	// TODO - Implementation
@@ -11,6 +12,7 @@ SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b)
 	this->current_freq = 0;
 }
 
+// constant complexity
 TComp SortedBagIterator::getCurrent()
 {
 	// TODO - Implementation
@@ -24,12 +26,14 @@ TComp SortedBagIterator::getCurrent()
 	}
 }
 
+// constant complexity
 bool SortedBagIterator::valid()
 {
 	// TODO - Implementation
 	return (this->current_elem < this->bag.number_elem && this->current_freq < this->bag.elements[this->current_elem].freq);
 }
 
+// constant complexity
 void SortedBagIterator::next()
 {
 	// TODO - Implementation
@@ -48,6 +52,7 @@ void SortedBagIterator::next()
 	}
 }
 
+// constant complexity
 void SortedBagIterator::first()
 {
 	// TODO - Implementation
