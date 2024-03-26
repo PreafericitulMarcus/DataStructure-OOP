@@ -23,7 +23,7 @@ bool ListIterator::valid() const{
 
 TComp ListIterator::getCurrent() const{
 	//TODO - Implementation
-	return NULL_TCOMP
+	return NULL_TCOMP;
 }
 
 
