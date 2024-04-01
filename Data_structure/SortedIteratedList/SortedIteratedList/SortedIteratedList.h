@@ -33,6 +33,7 @@ private:
 	// TODO - Representation
 
 	PNode head;
+	PNode tail;
 
 	int size_list;
 
@@ -69,7 +70,7 @@ public:
 	ListIterator search(TComp e) const;
 
 	// TODO elimina
-	// void print();
+	void print_list();
 
 	// destructor
 	~SortedIteratedList();

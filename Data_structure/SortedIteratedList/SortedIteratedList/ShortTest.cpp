@@ -36,4 +36,3 @@ void testAll(){
     assert(list.size() == 0);
     assert(list.isEmpty());
 }
-
