@@ -53,22 +53,34 @@ TComp SortedIteratedList::getElement(ListIterator poz) const
 TComp SortedIteratedList::remove(ListIterator &poz)
 {
 	// TODO - Implementation
-	if (!poz.valid())
+
+	if (poz.current == nullptr) // check for invalid poz
 		throw exception();
-	PNode current = head;
-	PNode previous = nullptr;
-	while (current != nullptr and current->info() != poz.getCurrent())
+
+	TComp removed_element = poz.current->element;
+	PNode node_to_remove = poz.current;
+
+	if (poz.current == head)
 	{
-		previous = current;
-		current = current->next();
+		head = head->next_node;
 	}
-	if (current != nullptr and previous == nullptr) // means there is only 1 node, the head
-		head = head->next();
-	else if (current != nullptr)
-		previous->next_node = current->next();
-	TComp removed_element = current->info();
-	delete current;
+	else
+	{
+		PNode current_node = head;
+		while (current_node->next_node != poz.current)
+		{
+			current_node = current_node->next_node;
+		}
+		current_node->next_node = poz.current->next_node;
+
+		if (poz.current == tail)
+			tail = current_node;
+	}
+
+	poz.current = poz.current->next_node;
+	delete node_to_remove;
 	size_list--;
+
 	return removed_element;
 }
 
@@ -83,7 +95,7 @@ ListIterator SortedIteratedList::search(TComp e) const
 		it.next();
 	}
 	if (current == nullptr)
-		return ListIterator(*this);
+		return ListIterator(nullptr);
 	return it;
 }
 
@@ -92,7 +104,6 @@ void SortedIteratedList::add(TComp e)
 	// TODO - Implementation
 	PNode new_node = new Node();
 	new_node->element = e;
-	size_list++;
 	if (head == nullptr)
 	{
 		head = new_node;
@@ -123,6 +134,7 @@ void SortedIteratedList::add(TComp e)
 			new_node->next_node = current;
 		}
 	}
+	size_list++;
 }
 
 void SortedIteratedList::print_list()
@@ -134,7 +146,6 @@ void SortedIteratedList::print_list()
 		cout << current->info() << ' ';
 		current = current->next();
 	}
-	size_list++;
 	cout << '\n';
 }
 

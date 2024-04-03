@@ -14,6 +14,7 @@ private:
 	PNode current;
 
 public:
+	void hello();
 	void first();
 	void next();
 	bool valid() const;

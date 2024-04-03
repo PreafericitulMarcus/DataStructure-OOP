@@ -39,6 +39,11 @@ bool ListIterator::valid() const
 	return true;
 }
 
+void ListIterator::hello()
+{
+	cout << this->current->info();
+}
+
 TComp ListIterator::getCurrent() const
 {
 	// TODO - Implementation
