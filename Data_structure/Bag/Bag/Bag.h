@@ -1,45 +1,62 @@
 #pragma once
-//DO NOT INCLUDE BAGITERATOR
+// DO NOT INCLUDE BAGITERATOR
 
-
-//DO NOT CHANGE THIS PART
+// DO NOT CHANGE THIS PART
 #define NULL_TELEM -111111;
 typedef int TElem;
-class BagIterator; 
-class Bag {
+class BagIterator;
+class Bag
+{
 
 private:
-	//TODO - Representation
+	// TODO - Representation
 
+	int capacity;
+	int *nextLink = new int[capacity];
+	int headLink;
+	int firstEmpty;
 
-	//DO NOT CHANGE THIS PART
+	struct Pairs
+	{
+		TElem element;
+		int frequency;
+	};
+
+	Pairs *elements = new Pairs[capacity];
+
+	int numberElements;
+	int numberPairs;
+	// DO NOT CHANGE THIS PART
 	friend class BagIterator;
+
 public:
-	//constructor
+	// constructor
 	Bag();
 
-	//adds an element to the bag
+	// adds an element to the bag
 	void add(TElem e);
 
-	//removes one occurrence of an element from a bag
-	//returns true if an element was removed, false otherwise (if e was not part of the bag)
+	// removes one occurrence of an element from a bag
+	// returns true if an element was removed, false otherwise (if e was not part of the bag)
 	bool remove(TElem e);
 
-	//checks if an element appearch is the bag
+	// checks if an element appearch is the bag
 	bool search(TElem e) const;
 
-	//returns the number of occurrences for an element in the bag
+	// returns the number of occurrences for an element in the bag
 	int nrOccurrences(TElem e) const;
 
-	//returns the number of elements from the bag
+	// returns the number of elements from the bag
 	int size() const;
 
-	//returns an iterator for this bag
+	// returns an iterator for this bag
 	BagIterator iterator() const;
 
-	//checks if the bag is empty
+	// checks if the bag is empty
 	bool isEmpty() const;
 
-	//destructor
+	// destructor
 	~Bag();
+
+	void resize();
 };
