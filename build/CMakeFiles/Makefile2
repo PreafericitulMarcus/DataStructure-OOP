@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = D:\AA-Diverse\Cods\DataStructure-OOP\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SortedBagExecutable.dir/all
+all: CMakeFiles/Bag.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/SortedBagExecutable.dir/clean
+clean: CMakeFiles/Bag.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -830,30 +830,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SortedBagExecutable.dir
+# Target rules for target CMakeFiles/Bag.dir
 
 # All Build rule for target.
-CMakeFiles/SortedBagExecutable.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SortedBagExecutable"
-.PHONY : CMakeFiles/SortedBagExecutable.dir/all
+CMakeFiles/Bag.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Bag"
+.PHONY : CMakeFiles/Bag.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SortedBagExecutable.dir/rule: cmake_check_build_system
+CMakeFiles/Bag.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SortedBagExecutable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Bag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles 0
-.PHONY : CMakeFiles/SortedBagExecutable.dir/rule
+.PHONY : CMakeFiles/Bag.dir/rule
 
 # Convenience name for target.
-SortedBagExecutable: CMakeFiles/SortedBagExecutable.dir/rule
-.PHONY : SortedBagExecutable
+Bag: CMakeFiles/Bag.dir/rule
+.PHONY : Bag
 
 # clean rule for target.
-CMakeFiles/SortedBagExecutable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/clean
-.PHONY : CMakeFiles/SortedBagExecutable.dir/clean
+CMakeFiles/Bag.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/clean
+.PHONY : CMakeFiles/Bag.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

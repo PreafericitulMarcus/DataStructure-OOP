@@ -510,137 +510,137 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named SortedBagExecutable
+# Target rules for targets named Bag
 
 # Build rule for target.
-SortedBagExecutable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortedBagExecutable
-.PHONY : SortedBagExecutable
+Bag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bag
+.PHONY : Bag
 
 # fast build rule for target.
-SortedBagExecutable/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/build
-.PHONY : SortedBagExecutable/fast
+Bag/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/build
+.PHONY : Bag/fast
 
-Data_structure/SortedIteratedList/SortedIteratedList/App.obj: Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.obj
-
-# target to build an object file
-Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.obj
-
-Data_structure/SortedIteratedList/SortedIteratedList/App.i: Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.i
-
-# target to preprocess a source file
-Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.i
-
-Data_structure/SortedIteratedList/SortedIteratedList/App.s: Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.s
-
-# target to generate assembly for a file
-Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.s
-
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.obj: Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.obj
+Data_structure/Bag/Bag/App.obj: Data_structure/Bag/Bag/App.cpp.obj
+.PHONY : Data_structure/Bag/Bag/App.obj
 
 # target to build an object file
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.obj
+Data_structure/Bag/Bag/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.obj
+.PHONY : Data_structure/Bag/Bag/App.cpp.obj
 
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.i: Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.i
+Data_structure/Bag/Bag/App.i: Data_structure/Bag/Bag/App.cpp.i
+.PHONY : Data_structure/Bag/Bag/App.i
 
 # target to preprocess a source file
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.i
+Data_structure/Bag/Bag/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.i
+.PHONY : Data_structure/Bag/Bag/App.cpp.i
 
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.s: Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.s
+Data_structure/Bag/Bag/App.s: Data_structure/Bag/Bag/App.cpp.s
+.PHONY : Data_structure/Bag/Bag/App.s
 
 # target to generate assembly for a file
-Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.s
+Data_structure/Bag/Bag/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.s
+.PHONY : Data_structure/Bag/Bag/App.cpp.s
 
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.obj: Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.obj
+Data_structure/Bag/Bag/Bag.obj: Data_structure/Bag/Bag/Bag.cpp.obj
+.PHONY : Data_structure/Bag/Bag/Bag.obj
 
 # target to build an object file
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.obj
+Data_structure/Bag/Bag/Bag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.obj
+.PHONY : Data_structure/Bag/Bag/Bag.cpp.obj
 
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.i: Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.i
+Data_structure/Bag/Bag/Bag.i: Data_structure/Bag/Bag/Bag.cpp.i
+.PHONY : Data_structure/Bag/Bag/Bag.i
 
 # target to preprocess a source file
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.i
+Data_structure/Bag/Bag/Bag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.i
+.PHONY : Data_structure/Bag/Bag/Bag.cpp.i
 
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.s: Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.s
+Data_structure/Bag/Bag/Bag.s: Data_structure/Bag/Bag/Bag.cpp.s
+.PHONY : Data_structure/Bag/Bag/Bag.s
 
 # target to generate assembly for a file
-Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.s
+Data_structure/Bag/Bag/Bag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.s
+.PHONY : Data_structure/Bag/Bag/Bag.cpp.s
 
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.obj: Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.obj
+Data_structure/Bag/Bag/BagIterator.obj: Data_structure/Bag/Bag/BagIterator.cpp.obj
+.PHONY : Data_structure/Bag/Bag/BagIterator.obj
 
 # target to build an object file
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.obj
+Data_structure/Bag/Bag/BagIterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.obj
+.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.obj
 
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.i: Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.i
+Data_structure/Bag/Bag/BagIterator.i: Data_structure/Bag/Bag/BagIterator.cpp.i
+.PHONY : Data_structure/Bag/Bag/BagIterator.i
 
 # target to preprocess a source file
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.i
+Data_structure/Bag/Bag/BagIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.i
+.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.i
 
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.s: Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.s
+Data_structure/Bag/Bag/BagIterator.s: Data_structure/Bag/Bag/BagIterator.cpp.s
+.PHONY : Data_structure/Bag/Bag/BagIterator.s
 
 # target to generate assembly for a file
-Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.s
+Data_structure/Bag/Bag/BagIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.s
+.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.s
 
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.obj: Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.obj
+Data_structure/Bag/Bag/ExtendedTest.obj: Data_structure/Bag/Bag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.obj
 
 # target to build an object file
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.obj
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.obj
+Data_structure/Bag/Bag/ExtendedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.obj
 
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.i: Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.i
+Data_structure/Bag/Bag/ExtendedTest.i: Data_structure/Bag/Bag/ExtendedTest.cpp.i
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.i
 
 # target to preprocess a source file
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.i
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.i
+Data_structure/Bag/Bag/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.i
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.i
 
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.s: Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.s
+Data_structure/Bag/Bag/ExtendedTest.s: Data_structure/Bag/Bag/ExtendedTest.cpp.s
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.s
 
 # target to generate assembly for a file
-Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedBagExecutable.dir\build.make CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.s
-.PHONY : Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.s
+Data_structure/Bag/Bag/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.s
+.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.s
+
+Data_structure/Bag/Bag/ShortTest.obj: Data_structure/Bag/Bag/ShortTest.cpp.obj
+.PHONY : Data_structure/Bag/Bag/ShortTest.obj
+
+# target to build an object file
+Data_structure/Bag/Bag/ShortTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.obj
+.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.obj
+
+Data_structure/Bag/Bag/ShortTest.i: Data_structure/Bag/Bag/ShortTest.cpp.i
+.PHONY : Data_structure/Bag/Bag/ShortTest.i
+
+# target to preprocess a source file
+Data_structure/Bag/Bag/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.i
+.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.i
+
+Data_structure/Bag/Bag/ShortTest.s: Data_structure/Bag/Bag/ShortTest.cpp.s
+.PHONY : Data_structure/Bag/Bag/ShortTest.s
+
+# target to generate assembly for a file
+Data_structure/Bag/Bag/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.s
+.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.s
 
 # Help Target
 help:
@@ -681,22 +681,22 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... SortedBagExecutable
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/App.obj
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/App.i
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/App.s
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.obj
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.i
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.s
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.obj
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.i
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.s
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.obj
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.i
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.s
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.obj
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.i
-	@echo ... Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.s
+	@echo ... Bag
+	@echo ... Data_structure/Bag/Bag/App.obj
+	@echo ... Data_structure/Bag/Bag/App.i
+	@echo ... Data_structure/Bag/Bag/App.s
+	@echo ... Data_structure/Bag/Bag/Bag.obj
+	@echo ... Data_structure/Bag/Bag/Bag.i
+	@echo ... Data_structure/Bag/Bag/Bag.s
+	@echo ... Data_structure/Bag/Bag/BagIterator.obj
+	@echo ... Data_structure/Bag/Bag/BagIterator.i
+	@echo ... Data_structure/Bag/Bag/BagIterator.s
+	@echo ... Data_structure/Bag/Bag/ExtendedTest.obj
+	@echo ... Data_structure/Bag/Bag/ExtendedTest.i
+	@echo ... Data_structure/Bag/Bag/ExtendedTest.s
+	@echo ... Data_structure/Bag/Bag/ShortTest.obj
+	@echo ... Data_structure/Bag/Bag/ShortTest.i
+	@echo ... Data_structure/Bag/Bag/ShortTest.s
 .PHONY : help
 
 

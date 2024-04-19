@@ -8,54 +8,38 @@ using namespace std;
 Bag::Bag()
 {
 	// TODO - Implementation
-	numberElements = 0;
-	numberPairs = 0;
-	capacity = 1000;
-
-	headLink = -1;
-	for (int i = 1; i < capacity - 1; i++)
-		nextLink[i] = i + 1;
-	firstEmpty = 0;
-	nextLink[capacity - 1] = -1;
-}
-
-void Bag::resize()
-{
-	int newCapacity = 2 * capacity;
-	Pairs *newElements = new Pairs[newCapacity];
-	int *newNextLink = new int[newCapacity];
-
+	capacity = 10;
+	elements = new Pairs[capacity];
+	nextLink = new int[capacity];
 	for (int i = 0; i < capacity; i++)
 	{
-		newElements[i] = elements[i];
-		newNextLink[i] = nextLink[i];
+		nextLink[i] = -1;
 	}
+	headLink = -1; 
+	firstEmpty = 0;
+	numberElements = 0;
+	numberPairs = 0;
+}
 
-	for (int i = capacity; i < newCapacity - 1; i++)
-		newNextLink[i] = i + 1;
-	newNextLink[newCapacity - 1] = -1;
-
-	delete[] elements;
-	delete[] nextLink;
-
-	elements = newElements;
-	nextLink = newNextLink;
-	firstEmpty = newCapacity + 1;
-	capacity = newCapacity;
+void Bag::print_list()
+{
+	int currentLink = headLink;
+	for (int i = 0; i < capacity; i++)
+		cout << elements[i].element << " ";
 }
 
 // O(numberPairs)
 void Bag::add(TElem elem)
 {
-	// TODO - Implementation
-
-	// first we check if the element is already in the list. if so we increment the frequency
 	int currentLink = headLink;
 	bool added = false;
+
+	// Traverse the list to find if the element already exists
 	while (currentLink != -1 && !added)
 	{
 		if (elements[currentLink].element == elem)
 		{
+			// Element found, increase its frequency
 			elements[currentLink].frequency++;
 			numberElements++;
 			added = true;
@@ -63,25 +47,32 @@ void Bag::add(TElem elem)
 		currentLink = nextLink[currentLink];
 	}
 
-	if (added == false)
+	// If the element was not found in the list, add it
+	if (!added)
 	{
-		// check if the list if full
-		if (firstEmpty == -1)
-			resize();
+		if (firstEmpty == capacity)
+		{
+			// If the list is full, resize it
+			capacity *= 2;
+			Pairs *newElements = new Pairs[capacity];
+			int *newNextLink = new int[capacity];
+			for (int i = 0; i < numberPairs; i++)
+			{
+				newElements[i] = elements[i];
+				newNextLink[i] = nextLink[i];
+			}
+			delete[] elements;
+			delete[] nextLink;
+			elements = newElements;
+			nextLink = newNextLink;
+		}
 
-		// save the element in the first empty spot
+		// Add the new element at the first empty spot
 		elements[firstEmpty].element = elem;
 		elements[firstEmpty].frequency = 1;
-
-		// save the index of the empty spot
-		int newEmpty = nextLink[firstEmpty];
-
-		// link the element to the list
 		nextLink[firstEmpty] = headLink;
-
-		// update the firstEmpty to the next empty spot
-		firstEmpty = newEmpty;
-
+		headLink = firstEmpty;
+		firstEmpty++;
 		numberElements++;
 		numberPairs++;
 	}
@@ -127,10 +118,12 @@ bool Bag::search(TElem elem) const
 {
 	// TODO - Implementation
 	int currentLink = headLink;
-	while (currentLink != -1 && elements[currentLink].element != elem)
+	while (currentLink != -1)
+	{
+		if (elements[currentLink].element == elem)
+			return true;
 		currentLink = nextLink[currentLink];
-	if (elements[currentLink].element == elem)
-		return true;
+	}
 	return false;
 }
 
@@ -160,7 +153,10 @@ int Bag::size() const
 bool Bag::isEmpty() const
 {
 	// TODO - Implementation
-	return (headLink == -1);
+	if (headLink == -1)
+		return true;
+	else
+		return false;
 }
 
 BagIterator Bag::iterator() const

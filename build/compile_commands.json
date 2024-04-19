@@ -1,32 +1,32 @@
 [
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedIteratedList\\SortedIteratedList\\App.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedIteratedList\\SortedIteratedList\\App.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedIteratedList/SortedIteratedList/App.cpp",
-  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/App.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Bag\\Bag\\App.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Bag\\Bag\\App.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Bag/Bag/App.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ExtendedTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ExtendedTest.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp",
-  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ExtendedTest.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Bag\\Bag\\ExtendedTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Bag\\Bag\\ExtendedTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Bag/Bag/ExtendedTest.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ShortTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ShortTest.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp",
-  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ShortTest.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Bag\\Bag\\ShortTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Bag\\Bag\\ShortTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Bag/Bag/ShortTest.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedIteratedList\\SortedIteratedList\\SortedIteratedList.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedIteratedList\\SortedIteratedList\\SortedIteratedList.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp",
-  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/SortedIteratedList.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Bag\\Bag\\Bag.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Bag\\Bag\\Bag.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Bag/Bag/Bag.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\SortedBagExecutable.dir\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ListIterator.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\SortedIteratedList\\SortedIteratedList\\ListIterator.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp",
-  "output": "CMakeFiles/SortedBagExecutable.dir/Data_structure/SortedIteratedList/SortedIteratedList/ListIterator.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Bag\\Bag\\BagIterator.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Bag\\Bag\\BagIterator.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Bag/Bag/BagIterator.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.obj"
 }
 ]

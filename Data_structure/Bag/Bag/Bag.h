@@ -12,7 +12,7 @@ private:
 	// TODO - Representation
 
 	int capacity;
-	int *nextLink = new int[capacity];
+	int *nextLink;
 	int headLink;
 	int firstEmpty;
 
@@ -22,7 +22,7 @@ private:
 		int frequency;
 	};
 
-	Pairs *elements = new Pairs[capacity];
+	Pairs *elements;
 
 	int numberElements;
 	int numberPairs;
@@ -59,4 +59,5 @@ public:
 	~Bag();
 
 	void resize();
+	void print_list();
 };
