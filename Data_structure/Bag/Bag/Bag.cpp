@@ -15,7 +15,7 @@ Bag::Bag()
 	{
 		nextLink[i] = -1;
 	}
-	headLink = -1; 
+	headLink = -1;
 	firstEmpty = 0;
 	numberElements = 0;
 	numberPairs = 0;
@@ -23,9 +23,11 @@ Bag::Bag()
 
 void Bag::print_list()
 {
+	cout << '\n';
 	int currentLink = headLink;
 	for (int i = 0; i < capacity; i++)
-		cout << elements[i].element << " ";
+		cout << elements[i].element << '-' << elements[i].frequency << ' ';
+	cout << '\n';
 }
 
 // O(numberPairs)
@@ -33,7 +35,6 @@ void Bag::add(TElem elem)
 {
 	int currentLink = headLink;
 	bool added = false;
-
 	// Traverse the list to find if the element already exists
 	while (currentLink != -1 && !added)
 	{
@@ -53,13 +54,18 @@ void Bag::add(TElem elem)
 		if (firstEmpty == capacity)
 		{
 			// If the list is full, resize it
+			int oldCapacity = capacity;
 			capacity *= 2;
 			Pairs *newElements = new Pairs[capacity];
 			int *newNextLink = new int[capacity];
-			for (int i = 0; i < numberPairs; i++)
+			for (int i = 0; i < oldCapacity; i++)
 			{
 				newElements[i] = elements[i];
 				newNextLink[i] = nextLink[i];
+			}
+			for (int i = oldCapacity; i < capacity; i++)
+			{
+				newNextLink[i] = -1;
 			}
 			delete[] elements;
 			delete[] nextLink;

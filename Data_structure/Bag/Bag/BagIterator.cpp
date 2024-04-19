@@ -4,46 +4,56 @@
 
 using namespace std;
 
-//constant
+// constant
 BagIterator::BagIterator(const Bag &c) : bag(c)
 {
 	// TODO - Implementation
-	current = bag.headLink;
+	current_element= bag.headLink;
+	current_frequency = 0;
 }
 
-//constant
+// constant
 void BagIterator::first()
 {
 	// TODO - Implementation
-	current = bag.headLink;
+	current_element = bag.headLink;
 }
 
-//constant
+// constant
 void BagIterator::next()
 {
 	// TODO - Implementation
 	if (valid())
-		current = bag.nextLink[current];
+	{
+		if (current_frequency < bag.elements[current_element].frequency - 1)
+			current_frequency++;
+		else
+		{
+			current_element = bag.nextLink[current_element];
+			current_frequency = 0;
+		}
+	
+	}
 	else
 		throw exception();
 }
 
-//constant
+// constant
 bool BagIterator::valid() const
 {
 	// TODO - Implementation
-	if (current != -1)
+	if (current_element != -1)
 		return true;
 	else
 		return false;
 }
 
-//constant
+// constant
 TElem BagIterator::getCurrent() const
 {
 	// TODO - Implementation
 	if (!valid())
 		throw exception();
 	else
-		return bag.elements[current].element;
+		return bag.elements[current_element].element;
 }
