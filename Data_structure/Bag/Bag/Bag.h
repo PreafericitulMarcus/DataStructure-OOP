@@ -11,8 +11,6 @@ class Bag
 private:
 	// TODO - Representation
 
-	int capacity;
-	int *nextLink;
 	int headLink;
 	int firstEmpty;
 
@@ -33,6 +31,8 @@ public:
 	// constructor
 	Bag();
 
+	int *nextLink;
+	int capacity;
 	// adds an element to the bag
 	void add(TElem e);
 
@@ -58,6 +58,5 @@ public:
 	// destructor
 	~Bag();
 
-	void resize();
 	void print_list();
 };
