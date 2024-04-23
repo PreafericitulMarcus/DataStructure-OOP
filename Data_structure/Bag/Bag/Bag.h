@@ -21,7 +21,9 @@ private:
 	};
 
 	Pairs *elements;
+	int *nextLink;
 
+	int capacity;
 	int numberElements;
 	int numberPairs;
 	// DO NOT CHANGE THIS PART
@@ -31,8 +33,6 @@ public:
 	// constructor
 	Bag();
 
-	int *nextLink;
-	int capacity;
 	// adds an element to the bag
 	void add(TElem e);
 

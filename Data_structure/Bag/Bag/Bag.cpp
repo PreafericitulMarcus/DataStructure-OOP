@@ -21,6 +21,7 @@ Bag::Bag()
 	numberPairs = 0;
 }
 
+// Titha(capacity)
 void Bag::print_list()
 {
 	cout << '\n';
@@ -119,6 +120,8 @@ bool Bag::remove(TElem elem)
 		return false;
 }
 
+// BC: Titha(1)
+// WC: Titha(numberPairs)
 // O(numberPairs)
 bool Bag::search(TElem elem) const
 {
@@ -133,6 +136,8 @@ bool Bag::search(TElem elem) const
 	return false;
 }
 
+// BC: Titha(1)
+// WC: Titha(numberPairs)
 // O(numberPairs)
 int Bag::nrOccurrences(TElem elem) const
 {
