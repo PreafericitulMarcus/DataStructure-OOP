@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-mingw32-make"
-	BuildStamp="20240423-0649-Experimental"
+	BuildStamp="20240426-1027-Experimental"
 	Name="Laptop_Marcus"
 	Generator="ctest-3.29.0-rc3"
 	CompilerName="C:/MinGW/bin/g++.exe"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="18173"
 	TotalPhysicalMemory="15741"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="1996"
+	ProcessorClockFrequency="2167"
 	>
 	<Testing>
-		<StartDateTime>Apr 23 10:46 GTB Daylight Time</StartDateTime>
-		<StartTestTime>1713858410</StartTestTime>
+		<StartDateTime>Apr 26 17:38 GTB Daylight Time</StartDateTime>
+		<StartTestTime>1714142319</StartTestTime>
 		<TestList/>
-		<EndDateTime>Apr 23 10:46 GTB Daylight Time</EndDateTime>
-		<EndTestTime>1713858410</EndTestTime>
+		<EndDateTime>Apr 26 17:38 GTB Daylight Time</EndDateTime>
+		<EndTestTime>1714142319</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

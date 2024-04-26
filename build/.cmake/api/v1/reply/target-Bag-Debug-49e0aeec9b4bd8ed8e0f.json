@@ -98,31 +98,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/Bag/Bag/App.cpp",
+			"path" : "Data_structure/BagHash/Bag/App.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/Bag/Bag/ExtendedTest.cpp",
+			"path" : "Data_structure/BagHash/Bag/ExtendedTest.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/Bag/Bag/ShortTest.cpp",
+			"path" : "Data_structure/BagHash/Bag/ShortTest.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/Bag/Bag/Bag.cpp",
+			"path" : "Data_structure/BagHash/Bag/Bag.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/Bag/Bag/BagIterator.cpp",
+			"path" : "Data_structure/BagHash/Bag/BagIterator.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

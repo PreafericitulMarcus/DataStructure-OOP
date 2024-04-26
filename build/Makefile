@@ -522,125 +522,125 @@ Bag/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/build
 .PHONY : Bag/fast
 
-Data_structure/Bag/Bag/App.obj: Data_structure/Bag/Bag/App.cpp.obj
-.PHONY : Data_structure/Bag/Bag/App.obj
+Data_structure/BagHash/Bag/App.obj: Data_structure/BagHash/Bag/App.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/App.obj
 
 # target to build an object file
-Data_structure/Bag/Bag/App.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.obj
-.PHONY : Data_structure/Bag/Bag/App.cpp.obj
+Data_structure/BagHash/Bag/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/App.cpp.obj
 
-Data_structure/Bag/Bag/App.i: Data_structure/Bag/Bag/App.cpp.i
-.PHONY : Data_structure/Bag/Bag/App.i
+Data_structure/BagHash/Bag/App.i: Data_structure/BagHash/Bag/App.cpp.i
+.PHONY : Data_structure/BagHash/Bag/App.i
 
 # target to preprocess a source file
-Data_structure/Bag/Bag/App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.i
-.PHONY : Data_structure/Bag/Bag/App.cpp.i
+Data_structure/BagHash/Bag/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.i
+.PHONY : Data_structure/BagHash/Bag/App.cpp.i
 
-Data_structure/Bag/Bag/App.s: Data_structure/Bag/Bag/App.cpp.s
-.PHONY : Data_structure/Bag/Bag/App.s
+Data_structure/BagHash/Bag/App.s: Data_structure/BagHash/Bag/App.cpp.s
+.PHONY : Data_structure/BagHash/Bag/App.s
 
 # target to generate assembly for a file
-Data_structure/Bag/Bag/App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/App.cpp.s
-.PHONY : Data_structure/Bag/Bag/App.cpp.s
+Data_structure/BagHash/Bag/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.s
+.PHONY : Data_structure/BagHash/Bag/App.cpp.s
 
-Data_structure/Bag/Bag/Bag.obj: Data_structure/Bag/Bag/Bag.cpp.obj
-.PHONY : Data_structure/Bag/Bag/Bag.obj
+Data_structure/BagHash/Bag/Bag.obj: Data_structure/BagHash/Bag/Bag.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/Bag.obj
 
 # target to build an object file
-Data_structure/Bag/Bag/Bag.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.obj
-.PHONY : Data_structure/Bag/Bag/Bag.cpp.obj
+Data_structure/BagHash/Bag/Bag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/Bag.cpp.obj
 
-Data_structure/Bag/Bag/Bag.i: Data_structure/Bag/Bag/Bag.cpp.i
-.PHONY : Data_structure/Bag/Bag/Bag.i
+Data_structure/BagHash/Bag/Bag.i: Data_structure/BagHash/Bag/Bag.cpp.i
+.PHONY : Data_structure/BagHash/Bag/Bag.i
 
 # target to preprocess a source file
-Data_structure/Bag/Bag/Bag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.i
-.PHONY : Data_structure/Bag/Bag/Bag.cpp.i
+Data_structure/BagHash/Bag/Bag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.i
+.PHONY : Data_structure/BagHash/Bag/Bag.cpp.i
 
-Data_structure/Bag/Bag/Bag.s: Data_structure/Bag/Bag/Bag.cpp.s
-.PHONY : Data_structure/Bag/Bag/Bag.s
+Data_structure/BagHash/Bag/Bag.s: Data_structure/BagHash/Bag/Bag.cpp.s
+.PHONY : Data_structure/BagHash/Bag/Bag.s
 
 # target to generate assembly for a file
-Data_structure/Bag/Bag/Bag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/Bag.cpp.s
-.PHONY : Data_structure/Bag/Bag/Bag.cpp.s
+Data_structure/BagHash/Bag/Bag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.s
+.PHONY : Data_structure/BagHash/Bag/Bag.cpp.s
 
-Data_structure/Bag/Bag/BagIterator.obj: Data_structure/Bag/Bag/BagIterator.cpp.obj
-.PHONY : Data_structure/Bag/Bag/BagIterator.obj
+Data_structure/BagHash/Bag/BagIterator.obj: Data_structure/BagHash/Bag/BagIterator.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/BagIterator.obj
 
 # target to build an object file
-Data_structure/Bag/Bag/BagIterator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.obj
-.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.obj
+Data_structure/BagHash/Bag/BagIterator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.obj
 
-Data_structure/Bag/Bag/BagIterator.i: Data_structure/Bag/Bag/BagIterator.cpp.i
-.PHONY : Data_structure/Bag/Bag/BagIterator.i
+Data_structure/BagHash/Bag/BagIterator.i: Data_structure/BagHash/Bag/BagIterator.cpp.i
+.PHONY : Data_structure/BagHash/Bag/BagIterator.i
 
 # target to preprocess a source file
-Data_structure/Bag/Bag/BagIterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.i
-.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.i
+Data_structure/BagHash/Bag/BagIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.i
+.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.i
 
-Data_structure/Bag/Bag/BagIterator.s: Data_structure/Bag/Bag/BagIterator.cpp.s
-.PHONY : Data_structure/Bag/Bag/BagIterator.s
+Data_structure/BagHash/Bag/BagIterator.s: Data_structure/BagHash/Bag/BagIterator.cpp.s
+.PHONY : Data_structure/BagHash/Bag/BagIterator.s
 
 # target to generate assembly for a file
-Data_structure/Bag/Bag/BagIterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/BagIterator.cpp.s
-.PHONY : Data_structure/Bag/Bag/BagIterator.cpp.s
+Data_structure/BagHash/Bag/BagIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.s
+.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.s
 
-Data_structure/Bag/Bag/ExtendedTest.obj: Data_structure/Bag/Bag/ExtendedTest.cpp.obj
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.obj
+Data_structure/BagHash/Bag/ExtendedTest.obj: Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.obj
 
 # target to build an object file
-Data_structure/Bag/Bag/ExtendedTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.obj
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.obj
+Data_structure/BagHash/Bag/ExtendedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
 
-Data_structure/Bag/Bag/ExtendedTest.i: Data_structure/Bag/Bag/ExtendedTest.cpp.i
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.i
+Data_structure/BagHash/Bag/ExtendedTest.i: Data_structure/BagHash/Bag/ExtendedTest.cpp.i
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.i
 
 # target to preprocess a source file
-Data_structure/Bag/Bag/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.i
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.i
+Data_structure/BagHash/Bag/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.i
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.i
 
-Data_structure/Bag/Bag/ExtendedTest.s: Data_structure/Bag/Bag/ExtendedTest.cpp.s
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.s
+Data_structure/BagHash/Bag/ExtendedTest.s: Data_structure/BagHash/Bag/ExtendedTest.cpp.s
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.s
 
 # target to generate assembly for a file
-Data_structure/Bag/Bag/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ExtendedTest.cpp.s
-.PHONY : Data_structure/Bag/Bag/ExtendedTest.cpp.s
+Data_structure/BagHash/Bag/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.s
+.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.s
 
-Data_structure/Bag/Bag/ShortTest.obj: Data_structure/Bag/Bag/ShortTest.cpp.obj
-.PHONY : Data_structure/Bag/Bag/ShortTest.obj
+Data_structure/BagHash/Bag/ShortTest.obj: Data_structure/BagHash/Bag/ShortTest.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/ShortTest.obj
 
 # target to build an object file
-Data_structure/Bag/Bag/ShortTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.obj
-.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.obj
+Data_structure/BagHash/Bag/ShortTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj
+.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.obj
 
-Data_structure/Bag/Bag/ShortTest.i: Data_structure/Bag/Bag/ShortTest.cpp.i
-.PHONY : Data_structure/Bag/Bag/ShortTest.i
+Data_structure/BagHash/Bag/ShortTest.i: Data_structure/BagHash/Bag/ShortTest.cpp.i
+.PHONY : Data_structure/BagHash/Bag/ShortTest.i
 
 # target to preprocess a source file
-Data_structure/Bag/Bag/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.i
-.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.i
+Data_structure/BagHash/Bag/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.i
+.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.i
 
-Data_structure/Bag/Bag/ShortTest.s: Data_structure/Bag/Bag/ShortTest.cpp.s
-.PHONY : Data_structure/Bag/Bag/ShortTest.s
+Data_structure/BagHash/Bag/ShortTest.s: Data_structure/BagHash/Bag/ShortTest.cpp.s
+.PHONY : Data_structure/BagHash/Bag/ShortTest.s
 
 # target to generate assembly for a file
-Data_structure/Bag/Bag/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Bag/Bag/ShortTest.cpp.s
-.PHONY : Data_structure/Bag/Bag/ShortTest.cpp.s
+Data_structure/BagHash/Bag/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.s
+.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.s
 
 # Help Target
 help:
@@ -682,21 +682,21 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Bag
-	@echo ... Data_structure/Bag/Bag/App.obj
-	@echo ... Data_structure/Bag/Bag/App.i
-	@echo ... Data_structure/Bag/Bag/App.s
-	@echo ... Data_structure/Bag/Bag/Bag.obj
-	@echo ... Data_structure/Bag/Bag/Bag.i
-	@echo ... Data_structure/Bag/Bag/Bag.s
-	@echo ... Data_structure/Bag/Bag/BagIterator.obj
-	@echo ... Data_structure/Bag/Bag/BagIterator.i
-	@echo ... Data_structure/Bag/Bag/BagIterator.s
-	@echo ... Data_structure/Bag/Bag/ExtendedTest.obj
-	@echo ... Data_structure/Bag/Bag/ExtendedTest.i
-	@echo ... Data_structure/Bag/Bag/ExtendedTest.s
-	@echo ... Data_structure/Bag/Bag/ShortTest.obj
-	@echo ... Data_structure/Bag/Bag/ShortTest.i
-	@echo ... Data_structure/Bag/Bag/ShortTest.s
+	@echo ... Data_structure/BagHash/Bag/App.obj
+	@echo ... Data_structure/BagHash/Bag/App.i
+	@echo ... Data_structure/BagHash/Bag/App.s
+	@echo ... Data_structure/BagHash/Bag/Bag.obj
+	@echo ... Data_structure/BagHash/Bag/Bag.i
+	@echo ... Data_structure/BagHash/Bag/Bag.s
+	@echo ... Data_structure/BagHash/Bag/BagIterator.obj
+	@echo ... Data_structure/BagHash/Bag/BagIterator.i
+	@echo ... Data_structure/BagHash/Bag/BagIterator.s
+	@echo ... Data_structure/BagHash/Bag/ExtendedTest.obj
+	@echo ... Data_structure/BagHash/Bag/ExtendedTest.i
+	@echo ... Data_structure/BagHash/Bag/ExtendedTest.s
+	@echo ... Data_structure/BagHash/Bag/ShortTest.obj
+	@echo ... Data_structure/BagHash/Bag/ShortTest.i
+	@echo ... Data_structure/BagHash/Bag/ShortTest.s
 .PHONY : help
 
 
