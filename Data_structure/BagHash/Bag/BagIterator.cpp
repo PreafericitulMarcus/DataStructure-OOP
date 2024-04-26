@@ -18,7 +18,7 @@ BagIterator::BagIterator(const Bag &c) : bag(c)
 	if (currentPosition < bag.hashTableSize)
 	{
 		currentNode = bag.hashTable[currentPosition];
-		currentFrequency = currentNode->pair.frequency;
+		currentFrequency = 1;
 	}
 	else
 	{
@@ -37,7 +37,7 @@ void BagIterator::first()
 	if (currentPosition < bag.hashTableSize)
 	{
 		currentNode = bag.hashTable[currentPosition];
-		currentFrequency = currentNode->pair.frequency;
+		currentFrequency = 1;
 	}
 	else
 	{
@@ -52,7 +52,6 @@ void BagIterator::next()
 	{
 		throw exception();
 	}
-	cout << currentNode->pair.element << ' ' << currentNode->pair.frequency << ' ' << currentFrequency << endl;
 	if (currentNode != nullptr && currentFrequency < currentNode->pair.frequency)
 	{
 		currentFrequency++;
@@ -80,7 +79,11 @@ bool BagIterator::valid() const
 {
 	if (bag.isEmpty())
 		return false;
-	return (currentNode != nullptr && currentPosition < bag.hashTableSize - 1);
+	if (currentNode == nullptr)
+		return false;
+	if (currentPosition >= bag.hashTableSize)
+		return false;
+	return true;
 }
 
 TElem BagIterator::getCurrent() const

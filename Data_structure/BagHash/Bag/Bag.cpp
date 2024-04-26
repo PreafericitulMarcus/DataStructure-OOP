@@ -127,7 +127,7 @@ bool Bag::remove(TElem elem)
 			{
 				// prevoius is the first node
 				if (previousNode == nullptr)
-					hashTable[i] == currentNode->nextNode;
+					hashTable[i] = currentNode->nextNode;
 				else // jump over the current node
 					previousNode->nextNode = currentNode->nextNode;
 
