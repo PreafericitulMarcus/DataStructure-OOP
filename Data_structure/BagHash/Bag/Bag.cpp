@@ -17,11 +17,13 @@ Bag::Bag()
 	numberElements = 0;
 }
 
+// constant time
 int Bag::hashFunction(TElem e) const
 {
 	return abs(e) % hashTableSize;
 }
 
+// O(hashTableSize*2)
 void Bag::resizeHashTable()
 {
 	int oldSize = hashTableSize;
@@ -56,6 +58,8 @@ void Bag::resizeHashTable()
 	delete[] oldTable;
 }
 
+// BC: O(1)
+// WC: O(hashTableSize*2)
 void Bag::add(TElem elem)
 {
 	// TODO - Implementation
@@ -103,6 +107,8 @@ void Bag::add(TElem elem)
 	}
 }
 
+// BC: O(1)
+// WC: O(hashTableSize)
 bool Bag::remove(TElem elem)
 {
 	// TODO - Implementation
@@ -142,6 +148,8 @@ bool Bag::remove(TElem elem)
 	return false;
 }
 
+// BC: O(1)
+// WC: O(hashTableSize)
 bool Bag::search(TElem elem) const
 {
 	// TODO - Implementation
@@ -158,6 +166,8 @@ bool Bag::search(TElem elem) const
 	return false;
 }
 
+// BC: O(1)
+// WC: O(hashTableSize)
 int Bag::nrOccurrences(TElem elem) const
 {
 	// TODO - Implementation
@@ -172,23 +182,27 @@ int Bag::nrOccurrences(TElem elem) const
 	return 0;
 }
 
+//constant time
 int Bag::size() const
 {
 	// TODO - Implementation
 	return numberElements;
 }
 
+//constant time
 bool Bag::isEmpty() const
 {
 	// TODO - Implementation
 	return (numberElements == 0);
 }
 
+//constant time
 BagIterator Bag::iterator() const
 {
 	return BagIterator(*this);
 }
 
+// O(hashTableSize)
 void Bag::printList()
 {
 	for (int i = 0; i < hashTableSize; i++)
@@ -202,6 +216,7 @@ void Bag::printList()
 	}
 }
 
+// O(hashTableSize)
 Bag::~Bag()
 {
 	// TODO - Implementation
