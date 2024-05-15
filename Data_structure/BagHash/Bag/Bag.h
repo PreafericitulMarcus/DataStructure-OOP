@@ -29,12 +29,12 @@ private:
 	int hashFunction(TElem e) const;
 
 	int numberElements;
+	int numberPairs;
 
 	// DO NOT CHANGE THIS PART
 	friend class BagIterator;
 
 public:
-	int numberPairs;
 	// constructor
 	Bag();
 

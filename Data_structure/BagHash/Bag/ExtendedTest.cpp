@@ -417,12 +417,14 @@ void testQuantity()
 	assert(it.valid() == false);
 	for (int i = 0; i < 10; i++)
 	{
+		cout<<i<<' ';
 		for (int j = 40000; j >= -40000; j--)
 		{
 			b.remove(j);
 		}
 	}
 	assert(b.size() == 0);
+	cout<<"\n";
 }
 
 void testAllExtended()
