@@ -1,32 +1,26 @@
 [
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\BagHash\\Bag\\App.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\BagHash\\Bag\\App.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/App.cpp",
-  "output": "CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Matrix\\Matrix\\App.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Matrix\\Matrix\\App.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/App.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\BagHash\\Bag\\ExtendedTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\BagHash\\Bag\\ExtendedTest.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/ExtendedTest.cpp",
-  "output": "CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Matrix\\Matrix\\ExtendedTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Matrix\\Matrix\\ExtendedTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/ExtendedTest.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\BagHash\\Bag\\ShortTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\BagHash\\Bag\\ShortTest.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/ShortTest.cpp",
-  "output": "CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Matrix\\Matrix\\ShortTest.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Matrix\\Matrix\\ShortTest.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/ShortTest.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj"
 },
 {
   "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\BagHash\\Bag\\Bag.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\BagHash\\Bag\\Bag.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/Bag.cpp",
-  "output": "CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj"
-},
-{
-  "directory": "D:/AA-Diverse/Cods/DataStructure-OOP/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\BagHash\\Bag\\BagIterator.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\BagHash\\Bag\\BagIterator.cpp",
-  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/BagIterator.cpp",
-  "output": "CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\Bag.dir\\Data_structure\\Matrix\\Matrix\\Matrix.cpp.obj -c D:\\AA-Diverse\\Cods\\DataStructure-OOP\\Data_structure\\Matrix\\Matrix\\Matrix.cpp",
+  "file": "D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/Matrix.cpp",
+  "output": "CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj"
 }
 ]

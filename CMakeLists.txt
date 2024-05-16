@@ -4,7 +4,7 @@ project(project VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(Bag Data_Structure/BagHash/Bag/App.cpp Data_Structure/BagHash/Bag/ExtendedTest.cpp Data_Structure/BagHash/Bag/ShortTest.cpp Data_Structure/BagHash/Bag/Bag.cpp Data_Structure/BagHash/Bag/BagIterator.cpp)
+add_executable(Bag Data_Structure/Matrix/Matrix/App.cpp Data_Structure/Matrix/Matrix/ExtendedTest.cpp Data_Structure/Matrix/Matrix/ShortTest.cpp Data_Structure/Matrix/Matrix/Matrix.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -68,97 +68,81 @@ include CMakeFiles/Bag.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Bag.dir/flags.make
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj: CMakeFiles/Bag.dir/flags.make
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/App.cpp
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\App.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\App.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\App.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj: CMakeFiles/Bag.dir/flags.make
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/App.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\App.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\App.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\App.cpp
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\App.cpp > CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\App.cpp.i
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\App.cpp > CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\App.cpp.i
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\App.cpp -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\App.cpp.s
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\App.cpp -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\App.cpp.s
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj: CMakeFiles/Bag.dir/flags.make
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/ExtendedTest.cpp
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ExtendedTest.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ExtendedTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ExtendedTest.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj: CMakeFiles/Bag.dir/flags.make
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/ExtendedTest.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ExtendedTest.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ExtendedTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ExtendedTest.cpp
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ExtendedTest.cpp > CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ExtendedTest.cpp.i
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ExtendedTest.cpp > CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ExtendedTest.cpp.i
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ExtendedTest.cpp -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ExtendedTest.cpp.s
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ExtendedTest.cpp -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ExtendedTest.cpp.s
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj: CMakeFiles/Bag.dir/flags.make
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/ShortTest.cpp
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ShortTest.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ShortTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ShortTest.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj: CMakeFiles/Bag.dir/flags.make
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/ShortTest.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ShortTest.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ShortTest.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ShortTest.cpp
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ShortTest.cpp > CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ShortTest.cpp.i
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ShortTest.cpp > CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ShortTest.cpp.i
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\ShortTest.cpp -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\ShortTest.cpp.s
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\ShortTest.cpp -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\ShortTest.cpp.s
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj: CMakeFiles/Bag.dir/flags.make
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/Bag.cpp
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\Bag.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\Bag.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\Bag.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj: CMakeFiles/Bag.dir/flags.make
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/Matrix/Matrix/Matrix.cpp
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\Matrix.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\Matrix.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\Matrix.cpp
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\Bag.cpp > CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\Bag.cpp.i
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\Matrix.cpp > CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\Matrix.cpp.i
 
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\Bag.cpp -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\Bag.cpp.s
-
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj: CMakeFiles/Bag.dir/flags.make
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj: D:/AA-Diverse/Cods/DataStructure-OOP/Data_structure/BagHash/Bag/BagIterator.cpp
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj: CMakeFiles/Bag.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj -MF CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\BagIterator.cpp.obj.d -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\BagIterator.cpp.obj -c D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\BagIterator.cpp
-
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\BagIterator.cpp > CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\BagIterator.cpp.i
-
-CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\BagHash\Bag\BagIterator.cpp -o CMakeFiles\Bag.dir\Data_structure\BagHash\Bag\BagIterator.cpp.s
+CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\AA-Diverse\Cods\DataStructure-OOP\Data_structure\Matrix\Matrix\Matrix.cpp -o CMakeFiles\Bag.dir\Data_structure\Matrix\Matrix\Matrix.cpp.s
 
 # Object files for target Bag
 Bag_OBJECTS = \
-"CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj" \
-"CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj" \
-"CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj" \
-"CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj" \
-"CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj"
+"CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj" \
+"CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj" \
+"CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj" \
+"CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj"
 
 # External object files for target Bag
 Bag_EXTERNAL_OBJECTS =
 
-Bag.exe: CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj
-Bag.exe: CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
-Bag.exe: CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj
-Bag.exe: CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj
-Bag.exe: CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj
+Bag.exe: CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj
+Bag.exe: CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj
+Bag.exe: CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj
+Bag.exe: CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj
 Bag.exe: CMakeFiles/Bag.dir/build.make
 Bag.exe: CMakeFiles/Bag.dir/linkLibs.rsp
 Bag.exe: CMakeFiles/Bag.dir/objects1.rsp
 Bag.exe: CMakeFiles/Bag.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Bag.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\AA-Diverse\Cods\DataStructure-OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Bag.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Bag.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

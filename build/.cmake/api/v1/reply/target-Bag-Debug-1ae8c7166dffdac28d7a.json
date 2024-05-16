@@ -47,8 +47,7 @@
 				0,
 				1,
 				2,
-				3,
-				4
+				3
 			]
 		}
 	],
@@ -88,8 +87,7 @@
 				0,
 				1,
 				2,
-				3,
-				4
+				3
 			]
 		}
 	],
@@ -98,31 +96,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/BagHash/Bag/App.cpp",
+			"path" : "Data_structure/Matrix/Matrix/App.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/BagHash/Bag/ExtendedTest.cpp",
+			"path" : "Data_structure/Matrix/Matrix/ExtendedTest.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/BagHash/Bag/ShortTest.cpp",
+			"path" : "Data_structure/Matrix/Matrix/ShortTest.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Data_structure/BagHash/Bag/Bag.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Data_structure/BagHash/Bag/BagIterator.cpp",
+			"path" : "Data_structure/Matrix/Matrix/Matrix.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

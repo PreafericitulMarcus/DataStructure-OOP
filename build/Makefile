@@ -522,125 +522,101 @@ Bag/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/build
 .PHONY : Bag/fast
 
-Data_structure/BagHash/Bag/App.obj: Data_structure/BagHash/Bag/App.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/App.obj
+Data_structure/Matrix/Matrix/App.obj: Data_structure/Matrix/Matrix/App.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/App.obj
 
 # target to build an object file
-Data_structure/BagHash/Bag/App.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/App.cpp.obj
+Data_structure/Matrix/Matrix/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/App.cpp.obj
 
-Data_structure/BagHash/Bag/App.i: Data_structure/BagHash/Bag/App.cpp.i
-.PHONY : Data_structure/BagHash/Bag/App.i
+Data_structure/Matrix/Matrix/App.i: Data_structure/Matrix/Matrix/App.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/App.i
 
 # target to preprocess a source file
-Data_structure/BagHash/Bag/App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.i
-.PHONY : Data_structure/BagHash/Bag/App.cpp.i
+Data_structure/Matrix/Matrix/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/App.cpp.i
 
-Data_structure/BagHash/Bag/App.s: Data_structure/BagHash/Bag/App.cpp.s
-.PHONY : Data_structure/BagHash/Bag/App.s
+Data_structure/Matrix/Matrix/App.s: Data_structure/Matrix/Matrix/App.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/App.s
 
 # target to generate assembly for a file
-Data_structure/BagHash/Bag/App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/App.cpp.s
-.PHONY : Data_structure/BagHash/Bag/App.cpp.s
+Data_structure/Matrix/Matrix/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/App.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/App.cpp.s
 
-Data_structure/BagHash/Bag/Bag.obj: Data_structure/BagHash/Bag/Bag.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/Bag.obj
+Data_structure/Matrix/Matrix/ExtendedTest.obj: Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.obj
 
 # target to build an object file
-Data_structure/BagHash/Bag/Bag.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/Bag.cpp.obj
+Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.cpp.obj
 
-Data_structure/BagHash/Bag/Bag.i: Data_structure/BagHash/Bag/Bag.cpp.i
-.PHONY : Data_structure/BagHash/Bag/Bag.i
+Data_structure/Matrix/Matrix/ExtendedTest.i: Data_structure/Matrix/Matrix/ExtendedTest.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.i
 
 # target to preprocess a source file
-Data_structure/BagHash/Bag/Bag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.i
-.PHONY : Data_structure/BagHash/Bag/Bag.cpp.i
+Data_structure/Matrix/Matrix/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.cpp.i
 
-Data_structure/BagHash/Bag/Bag.s: Data_structure/BagHash/Bag/Bag.cpp.s
-.PHONY : Data_structure/BagHash/Bag/Bag.s
+Data_structure/Matrix/Matrix/ExtendedTest.s: Data_structure/Matrix/Matrix/ExtendedTest.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.s
 
 # target to generate assembly for a file
-Data_structure/BagHash/Bag/Bag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/Bag.cpp.s
-.PHONY : Data_structure/BagHash/Bag/Bag.cpp.s
+Data_structure/Matrix/Matrix/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ExtendedTest.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/ExtendedTest.cpp.s
 
-Data_structure/BagHash/Bag/BagIterator.obj: Data_structure/BagHash/Bag/BagIterator.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/BagIterator.obj
+Data_structure/Matrix/Matrix/Matrix.obj: Data_structure/Matrix/Matrix/Matrix.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/Matrix.obj
 
 # target to build an object file
-Data_structure/BagHash/Bag/BagIterator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.obj
+Data_structure/Matrix/Matrix/Matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/Matrix.cpp.obj
 
-Data_structure/BagHash/Bag/BagIterator.i: Data_structure/BagHash/Bag/BagIterator.cpp.i
-.PHONY : Data_structure/BagHash/Bag/BagIterator.i
+Data_structure/Matrix/Matrix/Matrix.i: Data_structure/Matrix/Matrix/Matrix.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/Matrix.i
 
 # target to preprocess a source file
-Data_structure/BagHash/Bag/BagIterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.i
-.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.i
+Data_structure/Matrix/Matrix/Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/Matrix.cpp.i
 
-Data_structure/BagHash/Bag/BagIterator.s: Data_structure/BagHash/Bag/BagIterator.cpp.s
-.PHONY : Data_structure/BagHash/Bag/BagIterator.s
+Data_structure/Matrix/Matrix/Matrix.s: Data_structure/Matrix/Matrix/Matrix.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/Matrix.s
 
 # target to generate assembly for a file
-Data_structure/BagHash/Bag/BagIterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/BagIterator.cpp.s
-.PHONY : Data_structure/BagHash/Bag/BagIterator.cpp.s
+Data_structure/Matrix/Matrix/Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/Matrix.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/Matrix.cpp.s
 
-Data_structure/BagHash/Bag/ExtendedTest.obj: Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.obj
+Data_structure/Matrix/Matrix/ShortTest.obj: Data_structure/Matrix/Matrix/ShortTest.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.obj
 
 # target to build an object file
-Data_structure/BagHash/Bag/ExtendedTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.obj
+Data_structure/Matrix/Matrix/ShortTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.obj
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.cpp.obj
 
-Data_structure/BagHash/Bag/ExtendedTest.i: Data_structure/BagHash/Bag/ExtendedTest.cpp.i
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.i
-
-# target to preprocess a source file
-Data_structure/BagHash/Bag/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.i
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.i
-
-Data_structure/BagHash/Bag/ExtendedTest.s: Data_structure/BagHash/Bag/ExtendedTest.cpp.s
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.s
-
-# target to generate assembly for a file
-Data_structure/BagHash/Bag/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ExtendedTest.cpp.s
-.PHONY : Data_structure/BagHash/Bag/ExtendedTest.cpp.s
-
-Data_structure/BagHash/Bag/ShortTest.obj: Data_structure/BagHash/Bag/ShortTest.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/ShortTest.obj
-
-# target to build an object file
-Data_structure/BagHash/Bag/ShortTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.obj
-.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.obj
-
-Data_structure/BagHash/Bag/ShortTest.i: Data_structure/BagHash/Bag/ShortTest.cpp.i
-.PHONY : Data_structure/BagHash/Bag/ShortTest.i
+Data_structure/Matrix/Matrix/ShortTest.i: Data_structure/Matrix/Matrix/ShortTest.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.i
 
 # target to preprocess a source file
-Data_structure/BagHash/Bag/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.i
-.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.i
+Data_structure/Matrix/Matrix/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.i
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.cpp.i
 
-Data_structure/BagHash/Bag/ShortTest.s: Data_structure/BagHash/Bag/ShortTest.cpp.s
-.PHONY : Data_structure/BagHash/Bag/ShortTest.s
+Data_structure/Matrix/Matrix/ShortTest.s: Data_structure/Matrix/Matrix/ShortTest.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.s
 
 # target to generate assembly for a file
-Data_structure/BagHash/Bag/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/BagHash/Bag/ShortTest.cpp.s
-.PHONY : Data_structure/BagHash/Bag/ShortTest.cpp.s
+Data_structure/Matrix/Matrix/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bag.dir\build.make CMakeFiles/Bag.dir/Data_structure/Matrix/Matrix/ShortTest.cpp.s
+.PHONY : Data_structure/Matrix/Matrix/ShortTest.cpp.s
 
 # Help Target
 help:
@@ -682,21 +658,18 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Bag
-	@echo ... Data_structure/BagHash/Bag/App.obj
-	@echo ... Data_structure/BagHash/Bag/App.i
-	@echo ... Data_structure/BagHash/Bag/App.s
-	@echo ... Data_structure/BagHash/Bag/Bag.obj
-	@echo ... Data_structure/BagHash/Bag/Bag.i
-	@echo ... Data_structure/BagHash/Bag/Bag.s
-	@echo ... Data_structure/BagHash/Bag/BagIterator.obj
-	@echo ... Data_structure/BagHash/Bag/BagIterator.i
-	@echo ... Data_structure/BagHash/Bag/BagIterator.s
-	@echo ... Data_structure/BagHash/Bag/ExtendedTest.obj
-	@echo ... Data_structure/BagHash/Bag/ExtendedTest.i
-	@echo ... Data_structure/BagHash/Bag/ExtendedTest.s
-	@echo ... Data_structure/BagHash/Bag/ShortTest.obj
-	@echo ... Data_structure/BagHash/Bag/ShortTest.i
-	@echo ... Data_structure/BagHash/Bag/ShortTest.s
+	@echo ... Data_structure/Matrix/Matrix/App.obj
+	@echo ... Data_structure/Matrix/Matrix/App.i
+	@echo ... Data_structure/Matrix/Matrix/App.s
+	@echo ... Data_structure/Matrix/Matrix/ExtendedTest.obj
+	@echo ... Data_structure/Matrix/Matrix/ExtendedTest.i
+	@echo ... Data_structure/Matrix/Matrix/ExtendedTest.s
+	@echo ... Data_structure/Matrix/Matrix/Matrix.obj
+	@echo ... Data_structure/Matrix/Matrix/Matrix.i
+	@echo ... Data_structure/Matrix/Matrix/Matrix.s
+	@echo ... Data_structure/Matrix/Matrix/ShortTest.obj
+	@echo ... Data_structure/Matrix/Matrix/ShortTest.i
+	@echo ... Data_structure/Matrix/Matrix/ShortTest.s
 .PHONY : help
 
 
